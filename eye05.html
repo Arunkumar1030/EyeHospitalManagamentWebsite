@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vision</title>
+	<link rel="icon" type="image/icon" href="eye4.jpg"></head>
+	<style type="text/css" >
+	body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: rgb(135,206,250);  
+}  
+.container {  
+    padding: 50px;  
+   background-image: url(eye7.jpg);
+   background-repeat: no-repeat; 
+   opacity: 0.9;
+   background-size:100%; 
+}  
+  
+input[type=text], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border-color: rgb(219,112,147)  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus,  :focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn,.ab1 {  
+  background-color: #ff0000;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100px;  
+  opacity: 0.9;  
+}  
+.registerbtn,.ab1:hover {  
+  opacity: 1;  
+}
+  
+</style>
+<script>
+ function get(){
+    console.log("a");
+ }
+</script
+ <body>
+  
+<form>  
+  <div class="container">  
+  <center>  <h1> Enter the details</h1> </center>  
+  <hr>  
+  <label> Name </label>   
+<input type="text" name="name" placeholder= "name" size="15" required />   
+ 
+ 
+		<label> Date:</label>
+	<input type="text" name="Date" placeholder="date" size="15"required> 
+	<div>
+ 
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+<label>   
+Phone :  
+</label>  
+    
+<input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+ 
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  
+     
+    <button type="submit" class="registerbtn" onclick="get()">Register</button>
+    <button  onclick="document.location='eye.html'"   class="ab1">Home</button>    
+</form> 
+</body>
+</html>
